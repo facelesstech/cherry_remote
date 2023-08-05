@@ -2,8 +2,7 @@
 const int button0 = 4; // Button set to pin 5
 long time_button0 = 0; // the last time the output pin was toggled
 long debounce0 = 50; // the debounce time, increase if the output flickers
-int reading_button0; // the current reading from the input pin
-int previous_button0 = HIGH; // the previous reading from the input pin
+int reading_button0; // the current reading from the input pin int previous_button0 = HIGH; // the previous reading from the input pin
 
 // Button vol up stuff
 const int button1 = 5; // Button set to pin 5
